@@ -28,6 +28,7 @@ public class BoundsCheck : MonoBehaviour
 
     void LateUpdate() {
         Vector3 pos = transform.position;
+        
         isOnScreen = true;
         offRight = offLeft = offUp = offDown = false;
 
